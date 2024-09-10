@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title>Registrar Préstamo</title>
+</head>
+<body>
+    <header>
+        <h1><a href="../index.html">Biblioteca App</a></h1>
+        <nav>
+            <ul>
+                <li><a href="registrarse.html">Registrarse</a></li>
+                <li><a href="inicio-sesion.html">Iniciar Sesión</a></li>
+                <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h3>Registrar Préstamo</h3>
+        <form action="" method="post" id="prestamo">
+            <label for="libro">Libro:</label>
+            <select name="libro" id="libro">
+                <!--Aquí se pintarán los libros-->
+            </select>
+            <label for="usuario">Usuario:</label>
+            <select name="usuario" id="usuario">
+                <!--Aquí se pintarán los usuarios-->
+            </select>
+            <label for="fecha">Fecha de Préstamo:</label>
+            <input type="date" name="fecha" id="fecha">
+            <label for="devolucion">Fecha de Devolución:</label>
+            <input type="date" name="devolucion" id="devolucion">
+            <label for="cantidad">Cantidad:</label>
+            <input type="number" name="cantidad" id="cantidad">
+            <button type="submit">Registrar Préstamo</button>
+        </form>
+        <a href="dashboard.html">Volver</a>
+    </main>
+    <footer>
+        <p>Desarrollado con HTML, CSS, JavaScript, PHP y MySQL</p>
+        <p>Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
